@@ -6,7 +6,7 @@ import android.support.annotation.Nullable;
 
 import com.example.lixuecheng.mvpshow.presenter.BasePresenter;
 
-public abstract class BaseActivity<V,T extends BasePresenter<V>>extends Activity {
+public abstract class BaseActivity<V, T extends BasePresenter<V>>extends Activity {
     public T girlPresenter;
 
     @Override
